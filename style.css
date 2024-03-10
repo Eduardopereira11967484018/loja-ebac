@@ -1,0 +1,77 @@
+ @charset "UTF-8";
+
+ header {
+    padding: 16px 0;
+    background-image: linear-gradient(to right, #0246ff, #021f71);
+    color: #ecf0f1;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.paragrafo-sobre {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.lista li {
+    display: inline;
+}
+
+.lista a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #ecf0f1;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+header h1 {
+    color: #ecf0f1;
+    font-size: 36px;
+    font-style: oblique;
+}
+
+
+.about {
+    background-color: #f8f9fa;
+}
+.product-card .card-img-top {
+    height: 200px; 
+    object-fit: contain; 
+    width: 100%; 
+}
+
+.col-md-6 h2 {
+    font-size: 24px;
+    color:blue;
+    margin-bottom: 10px; 
+}
+
+
+.product-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+}
+
+.product-card .card-title {
+    color: #333;
+}
+
+.product-card .card-text {
+    color: #555;
+}
+
+.product-card .btn-dark {
+    background-color: #0a11d3;
+    border-color: #333;
+}
+
+.product-card .btn-dark:hover {
+    background-color: #555;
+    border-color: #555;
+}
